@@ -1,0 +1,575 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/*header section start*/
+.header{
+	width: 100%;
+	background: url(../img/hbe.png) center top no-repeat;
+	background-size: cover;
+	padding: 0px 0px 80px;
+	
+}
+.menu{
+	width: 100%;
+	padding: 10px 0px 10px;
+/*	background: #303030;*/
+}
+.menu .navbar-brand img{
+	width: 70%;
+}
+.fixed-top{
+	background: #303030;
+}
+.header .menu .navbar-nav .nav-item .nav-link{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #ffff;
+	margin: 0px 0px 0px 25px;
+	transition: 1s;
+}
+.menu .navbar-nav .nav-item .nav-link:hover, .menu .navbar-nav .nav-item .nav-link:focus{
+	color: #e8631c;
+}
+.header .menu .navbar-collapse .btn-success{
+	font-size: 22px;
+	border: 0px;
+	background: transparent;
+}
+.header .menu .navbar-collapse .btn-success i{
+	transition: 1s;
+}
+.header .menu .navbar-collapse .btn-success i:hover, .header .menu .navbar-collapse .btn-success i:focus{
+	color: #e8631c;
+}
+
+
+.header .banner{
+	width: 100%;
+	padding: 160px 0px 80px;
+}
+.header .banner .banner-inner{
+	width: 40%;
+	padding: 80px 0px 10px;
+}
+.banner .banner-inner h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
+	line-height: 80px;
+	font-weight: 500;
+	color: #fff;
+	margin: 0px 0px 15px;
+}
+.banner .banner-inner p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #fff;
+	margin: 0px 0px 15px;
+	
+}
+.inner-btn{
+	width: 100%;
+	padding: 10px 0px 0px;
+}
+
+.inner-btn .btn-primary{
+	font-family: 'Oswald', sans-serif;
+	padding: 10px 45px;
+	font-size: 18px;
+	font-weight: 400;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	border: 1px solid #e8631c;
+	background: #e8631c;
+	transition: 1s;
+	margin: 0px 20px 0px 0px;
+}
+ .banner .banner-inner .inner-btn .btn-primary:hover{
+	color: #e8631c;
+	background: transparent;
+	border: 1px solid #e8631c;
+}
+.banner .banner-inner .inner-btn .btn-primary:focus{
+	color: #e8631c;
+	background: transparent;
+	border: 1px solid #e8631c;
+}
+/*header section end*/
+
+/*feature section start*/
+.mobile{
+	display: none;
+}
+.feature{
+	width: 100%;
+	background: url(../img/fbe.png) center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+.feature .title{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 30px;
+}
+.feature .title h1{
+	font-size: 52px;
+	line-height: 62px;
+	color: #fff;
+	font-weight: 600;
+
+}
+.feature .title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.feature .inner-feature{
+	width: 100%;
+	background: #303030;
+	text-align: center;
+}
+.feature .inner-feature img{
+	width: 100%;
+	height: 100%;
+
+}
+.feature .inner-feature .text-box h4{
+	font-size: 32px;
+	line-height: 42px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.feature .inner-feature .text-box p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.feature .inner-feature .text-box{
+	padding: 10px 40px;
+}
+
+/*feature section end*/
+
+/*pricing section start*/
+	
+.pricing-plan{
+	width: 100%;
+	background: url(../img/pbe.png) center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+.pricing-plan .title{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 30px;
+}
+.pricing-plan .title h1{
+	font-size: 52px;
+	line-height: 62px;
+	color: #fff;
+
+}
+.pricing-plan .title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+ .pricing-plan .card{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0px;
+	background: #e8631c;
+	border: 0px;
+}
+.pricing-plan .card .card-img-top{
+	width: 30%;
+	margin: 30px 125px 25px;
+	
+}
+
+.pricing-plan .card .card-title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffff;
+	letter-spacing: 1px;
+}
+.pricing-plan .card .card-text{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #ffff;
+}
+
+.pricing-plan .card .card-body .btn-primary{
+	padding: 15px 90px;
+	background: #303030;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	border: 1px solid #303030;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-radius: 2px;
+	margin: 15px 0px 0px 0px;
+	transition: 1s;
+}
+
+.pricing-plan .card .card-body .btn-primary:hover, .pricing-plan .card .card-body .btn-primary:focus{
+	background: transparent;
+	color: #303030;
+	border: 1px solid #303030;
+}
+/*pricing section end*/
+
+
+
+/*shape section start*/
+.shape{
+	width: 100%;
+	background: url(../img/shbe.png) center top no-repeat;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+}
+.shape img{
+	width: 100%;
+	height: 100%;
+}
+.shape .shape-one{
+	padding: 0px;
+	margin: 0px;
+}
+.shape .shape-two{
+	padding: 0px;
+	margin: 0px;
+
+}
+.shape .card-body{
+	width: 65%;
+	text-align: left;
+    margin: 420px 100px 0px;	
+
+}
+.shape .card-body .card-title{
+	font-size: 52px;
+	line-height: 62px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 20px;
+}
+.shape .card-body .card-text{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0px 0px 20px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+.shape .card-body .btn-primary{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	background: #303030;
+	border: 0px;
+	border-radius: 2px;
+	padding: 10px 55px;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.shape .card-body .btn-primary:hover, .shape .card-body .btn-primary:focus{
+	color: #303030;
+	background: transparent;
+	border: 1px solid #303030;
+}
+
+
+/*shape section end*/
+ 
+/*statistic section start */
+.statistic{
+	width: 100%;
+	padding: 120px 0px;
+	background: #303030;
+	text-align: center;
+}
+.statistic .text-box{
+	width: 100%;
+	padding: 0px 220px 80px;
+}
+.statistic .text-box h2{
+	font-size: 52px;
+	line-height: 62px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.statistic .text-box p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+
+.statistic .static-box{
+	width: 100%;
+	padding: 30px;
+}
+.statistic .static-box h2{
+font-size: 46px;
+	line-height: 56px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.statistic .static-box p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+
+/*statistic section end*/
+
+/*fun-facts section start*/
+
+.fun-facts{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+
+/*fun-facts section end*/
+
+
+/*about section start*/
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../img/abbe.png) center top no-repeat;
+	background-size: cover;
+	
+}
+.about .body-text{
+	width: 100%;
+	text-align: center;
+	padding: 250px;
+}
+.about .body-text p{
+font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+.about .body-text h2{
+	font-size: 52px;
+	line-height: 62px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+/*about section end*/
+
+/*subscribe section start*/
+.subscribe{
+	width: 100%;
+	background: url(../img/subbe.png) center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+.subscribe .text-box{
+	width: 100%;
+	text-align: center;
+	padding: 40px 250px;
+}
+
+.subscribe .text-box h2{
+	font-size: 52px;
+	line-height: 62px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.subscribe .text-box p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	padding: 20px 0px;
+}
+.subscribe .text-box .form-control{
+	font-size: 18px;
+	font-weight: 400;
+	border: 0px solid #fff;
+	border-radius: 0px;
+	padding: 10px 20px;
+}
+.subscribe .text-box .form-control:focus{
+	    box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+.subscribe .text-box .design{
+	padding: 20px 0px;
+	margin: 0px 40px;
+}
+
+.subscribe .text-box .design .btn-primary{
+	font-size: 18px;
+	font-weight: 400;
+	border: 0px;
+	border-radius: 0px;
+	padding: 10px 20px;
+	background: #303030;
+	color: #ffff;
+	font-weight: 500;
+	transition: 1s;
+}
+.subscribe .text-box .design .btn-primary:hover, .subscribe .text-box .design .btn-primary:focus{
+	color: #303030;
+	background: transparent;
+	border: 1px solid #303030;
+}
+
+
+/*subscribe section end*/
+
+/*footer section start*/
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #303030;
+}
+.footer h4{
+	
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0px 0px 20px;
+}
+.footer p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+.footer .footer-body{
+	width: 100%;
+	padding: 0px 75px 0px 0px;
+}
+
+
+.footer ul{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+
+}
+.footer ul li{
+	list-style: none;
+	display: block;	
+}
+.footer ul li a{
+display: block;
+font-size: 16px;
+line-height: 26px;
+color: #fff;
+font-weight: 400;
+margin: 0px 0px 10px 0px;
+text-decoration: none;
+}
+
+.footer .social-icons {
+    width: 100%;
+    padding: 40px 0px 0px;
+    text-align: center;
+}
+
+.footer .social-icons ul{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.footer .social-icons ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+.footer .social-icons ul li a{
+	display: block;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 100%;
+	background: #fff;
+	color: #303030;
+	text-align: center;
+	margin: 0px 10px 0px 0px;
+	transition: 1s;
+}
+
+.footer .social-icons ul li a:hover, .footer .social-icons ul li a:focus{
+	color: #fff;
+	background: transparent;
+}
+
+
+/*footer section end*/

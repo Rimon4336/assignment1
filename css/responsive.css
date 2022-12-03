@@ -1,0 +1,893 @@
+
+/*#########################################################*/
+
+					/*Responsive Code*/
+
+/*#########################################################*/
+
+
+
+@media (min-width: 279px) and (max-width: 319px){
+/*code start*/
+.header{
+	padding: 0px 0px 30px;
+}
+.header .menu .navbar-brand img{
+	width: 50%;
+}
+.navbar-collapse{
+	    margin: 15px 0px 0px;
+}
+.header .menu .navbar-nav .nav-item .nav-link{
+	font-size: 12px;
+}
+
+.header .menu .navbar-toggler{
+	background: transparent;
+	border: 1px solid #e8631c;
+	border-radius: 0px;
+}
+.header .menu .navbar-toggler .fa{
+	color: #e8631c;
+}
+.menu .navbar-toggler:focus{
+	box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+
+.header .banner {
+    width: 100%;
+    padding: 30px 0px 30px;
+}
+.header .banner .banner-inner {
+    width: 100%;
+    padding: 30px 0px 10px;
+}
+.banner .banner-inner h1{
+	font-size: 30px;
+    line-height: 40px;
+}
+.banner .banner-inner p{
+	font-size: 9px;
+    line-height: 19px;
+}
+.inner-btn .btn-primary{
+	padding: 7px 15px;
+    font-size: 12px;
+}
+.feature{
+	padding: 20px 0px;
+}
+.feature .title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 20px;
+}
+.feature .title h1{
+	font-size: 30px;
+    line-height: 40px;
+}
+.desktop{
+	display: none;
+}
+.mobile{
+	display: block;
+}
+.feature .title p{
+	font-size: 9px;
+    line-height: 19px;
+}
+.feature .inner-feature{
+	margin: 0px 0px 15px;
+}
+.feature .inner-feature .text-box {
+    padding: 5px 40px;
+}
+.feature .inner-feature .text-box h4{
+	font-size: 20px;
+    line-height: 30px;
+}
+.feature .inner-feature .text-box p{
+	 font-size: 9px;
+    line-height: 19px;
+}
+.pricing-plan{
+	padding: 20px 0px;
+}
+.pricing-plan .title{
+	padding: 0px 0px 20px;
+}
+.pricing-plan .title h1{
+	font-size: 30px;
+    line-height: 40px;
+}
+.pricing-plan .title p{
+	font-size: 9px;
+    line-height: 19px;
+}
+.pricing-plan .card{
+	margin: 0px 0px 15px;
+}
+.pricing-plan .card .card-img-top{
+	margin: 20px 89px 20px;
+}
+.pricing-plan .card .card-title{
+	font-size: 20px;
+    line-height: 30px;
+}
+.pricing-plan .card .card-text{
+	font-size: 9px;
+    line-height: 19px;
+}
+.pricing-plan .card .card-body .btn-primary{
+	padding: 8px 50px;
+    font-size: 11px;
+}
+.shape{
+	padding: 0px 15px;
+}
+.shape .card-body{
+	width: 85%;
+    text-align: left;
+    margin: 80px 15px 80px;
+}
+.shape .card-body .card-title{
+	font-size: 28px;
+    line-height: 38px;
+}
+.shape .card-body .card-text{
+	font-size: 9px;
+    line-height: 19px;
+}
+.shape .card-body .btn-primary{
+	font-size: 11px;
+    padding: 8px 30px;
+}
+.statistic{
+	padding: 30px 0px;
+}
+.statistic .static-box {
+    width: 100%;
+    padding: 15px;
+}
+.statistic .text-box {
+    padding: 0px 0px 20px;
+}
+.statistic .text-box h2{
+	font-size: 28px;
+    line-height: 38px;
+    padding: 0px 0px 10px;
+}
+.statistic .text-box p{
+	font-size: 9px;
+    line-height: 19px;
+}
+.statistic .static-box h2{
+	font-size: 24px;
+    line-height: 34px;
+}
+.statistic .static-box p{
+	font-size: 15px;
+    line-height: 25px;
+}
+.about{
+	padding: 15px 0px;
+}
+.about .body-text {
+    width: 100%;
+    text-align: center;
+    padding: 100px 10px;
+}
+.about .body-text p{
+	font-size: 9px;
+    line-height: 19px;
+}
+.about .body-text h2{
+	font-size: 30px;
+    line-height: 40px;
+}
+.subscribe{
+	padding: 20px 0px;
+}
+.subscribe .text-box {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.subscribe .text-box h2{
+	font-size: 30px;
+    line-height: 40px;
+}
+.subscribe .text-box p{
+	font-size: 9px;
+    line-height: 19px;
+    padding: 10px 0px;
+}
+.subscribe .text-box .form-control {
+    font-size: 11px;
+    padding: 8px 10px;
+}
+.subscribe .text-box .design .btn-primary{
+	font-size: 11px;
+	padding: 6px 6px;
+}
+.footer{
+	padding: 20px 0px;
+	text-align: center;
+}
+.footer .footer-body {
+    width: 100%;
+    padding: 20px;
+}
+.footer h4{
+	margin: 10px 0px 20px;
+}
+.footer p{
+	font-size: 9px;
+    line-height: 19px;
+}
+.footer ul li a{
+	font-size: 9px;
+    line-height: 19px;
+    margin: 0px 0px 5px 0px;
+}
+.footer .social-icons ul li a{
+	width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+/*code end*/
+}
+@media (min-width: 320px) and (max-width: 480px){
+/*code start*/
+.header{
+	padding: 0px 0px 30px;
+}
+.header .menu .navbar-brand img{
+	width: 70%;
+}
+.header .menu .navbar-toggler{
+	background: transparent;
+	border: 1px solid #e8631c;
+	border-radius: 0px;
+}
+.header .menu .navbar-toggler .fa{
+	color: #e8631c;
+}
+.menu .navbar-toggler:focus{
+	box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+.navbar-collapse{
+	    margin: 15px 0px 0px;
+}
+.header .banner {
+    width: 100%;
+    padding: 30px 20px 30px;
+}
+.header .banner .banner-inner {
+    width: 100%;
+    padding: 30px 0px 10px;
+}
+.banner .banner-inner h1{
+	font-size: 42px;
+    line-height: 52px;
+}
+.banner .banner-inner p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.inner-btn .btn-primary{
+	padding: 10px 25px;
+    font-size: 14px;
+}
+.feature{
+	padding: 30px 0px;
+}
+.feature .title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 20px 20px;
+}
+.feature .title h1{
+	font-size: 42px;
+    line-height: 52px;
+}
+.desktop{
+	display: none;
+}
+.mobile{
+	display: block;
+}
+.feature .title p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.feature .inner-feature{
+	margin: 0px 0px 15px;
+}
+.feature .inner-feature .text-box h4{
+	font-size: 28px;
+    line-height: 38px;
+}
+.feature .inner-feature .text-box p{
+	 font-size: 13px;
+    line-height: 23px;
+}
+.pricing-plan{
+	padding: 30px 0px;
+}
+.pricing-plan .title{
+	padding: 0px 10px 20px;
+}
+.pricing-plan .title h1{
+	font-size: 42px;
+    line-height: 52px;
+}
+.pricing-plan .title p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.pricing-plan .card{
+	margin: 0px 0px 15px;
+}
+.pricing-plan .card .card-body{
+	padding: 15px 30px;
+}
+.pricing-plan .card .card-img-top{
+	margin: 30px 127px 25px;
+}
+.pricing-plan .card .card-title{
+	font-size: 26px;
+    line-height: 36px;
+}
+.pricing-plan .card .card-text{
+	font-size: 13px;
+    line-height: 23px;
+}
+.pricing-plan .card .card-body .btn-primary{
+	padding: 10px 70px;
+    font-size: 14px;
+}
+.shape{
+	padding: 0px 15px;
+}
+.shape .card-body{
+	width: 85%;
+    text-align: left;
+    margin: 100px 40px 100px;
+}
+.shape .card-body .card-title{
+	font-size: 38px;
+    line-height: 48px;
+}
+.shape .card-body .card-text{
+	font-size: 13px;
+    line-height: 23px;
+}
+.shape .card-body .btn-primary{
+	font-size: 14px;
+    padding: 10px 40px;
+}
+.statistic{
+	padding: 40px 0px;
+}
+.statistic .text-box {
+    padding: 0px 0px 40px;
+}
+.statistic .text-box h2{
+	font-size: 38px;
+    line-height: 48px;
+    padding: 0px 0px 10px;
+}
+.statistic .text-box p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.statistic .static-box h2{
+	font-size: 34px;
+    line-height: 44px;
+}
+.statistic .static-box p{
+	font-size: 20px;
+    line-height: 30px;
+}
+.about{
+	padding: 30px 0px;
+}
+.about .body-text {
+    width: 100%;
+    text-align: center;
+    padding: 150px 20px;
+}
+.about .body-text p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.about .body-text h2{
+	font-size: 42px;
+    line-height: 52px;
+}
+.subscribe{
+	padding: 40px 0px;
+}
+.subscribe .text-box {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+}
+.subscribe .text-box h2{
+	font-size: 42px;
+    line-height: 52px;
+}
+.subscribe .text-box p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.subscribe .text-box .form-control {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.subscribe .text-box .design .btn-primary{
+	font-size: 14px;
+	padding: 10px 10px;
+}
+.footer{
+	padding: 40px 0px;
+	text-align: center;
+}
+.footer .footer-body {
+    width: 100%;
+    padding: 25px 40px;
+}
+.footer h4 {
+    margin: 20px 0px 20px;
+}
+.footer p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.footer ul li a{
+	font-size: 13px;
+    line-height: 23px;
+}
+.footer .social-icons ul li a{
+	width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+
+
+
+
+/*code end*/
+}
+@media (min-width: 481px) and (max-width: 767px){
+/*code start*/
+.header{
+	padding: 0px 0px 30px;
+}
+.navbar-collapse{
+	    margin: 15px 0px 0px;
+}
+.header .menu .navbar-toggler{
+	background: transparent;
+	border: 1px solid #e8631c;
+	border-radius: 0px;
+}
+.header .menu .navbar-toggler .fa{
+	color: #e8631c;
+}
+.menu .navbar-toggler:focus{
+	box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+.header .banner {
+    width: 100%;
+    padding: 30px 0px 30px;
+}
+.header .banner .banner-inner {
+    width: 100%;
+    padding: 30px 180px 10px 10px;
+}
+.banner .banner-inner h1{
+	font-size: 42px;
+    line-height: 52px;
+}
+.banner .banner-inner p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.inner-btn .btn-primary{
+	padding: 10px 25px;
+    font-size: 14px;
+}
+.feature{
+	padding: 30px 0px;
+}
+.feature .title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 20px;
+}
+.feature .title h1{
+	font-size: 42px;
+    line-height: 52px;
+}
+.desktop{
+	display: none;
+}
+.mobile{
+	display: block;
+}
+.feature .title p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.feature .inner-feature{
+	margin: 0px 0px 15px;
+}
+.feature .inner-feature .text-box h4{
+	font-size: 28px;
+    line-height: 38px;
+}
+.feature .inner-feature .text-box p{
+	 font-size: 13px;
+    line-height: 23px;
+}
+.pricing-plan{
+	padding: 30px 0px;
+}
+.pricing-plan .title{
+	padding: 0px 0px 20px;
+}
+.pricing-plan .title h1{
+	font-size: 42px;
+    line-height: 52px;
+}
+.pricing-plan .title p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.pricing-plan .card{
+	margin: 0px 0px 15px;
+}
+.pricing-plan .card .card-img-top{
+	width: 20%;
+	margin: 30px 206px 25px;
+}
+.pricing-plan .card .card-title{
+	font-size: 26px;
+    line-height: 36px;
+}
+.pricing-plan .card .card-text{
+	font-size: 13px;
+    line-height: 23px;
+}
+.pricing-plan .card .card-body .btn-primary{
+	padding: 10px 70px;
+    font-size: 14px;
+}
+.shape{
+	padding: 0px 15px;
+}
+.shape .card-body{
+	width: 85%;
+    text-align: left;
+    margin: 100px 40px 100px;
+}
+.shape .card-body .card-title{
+	font-size: 38px;
+    line-height: 48px;
+}
+.shape .card-body .card-text{
+	font-size: 13px;
+    line-height: 23px;
+}
+.shape .card-body .btn-primary{
+	font-size: 14px;
+    padding: 10px 40px;
+}
+.statistic{
+	padding: 40px 0px;
+}
+.statistic .text-box {
+    padding: 0px 0px 40px;
+}
+.statistic .text-box h2{
+	font-size: 38px;
+    line-height: 48px;
+    padding: 0px 0px 10px;
+}
+.statistic .text-box p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.statistic .static-box h2{
+	font-size: 34px;
+    line-height: 44px;
+}
+.statistic .static-box p{
+	font-size: 20px;
+    line-height: 30px;
+}
+.about{
+	padding: 30px 0px;
+}
+.about .body-text {
+    width: 100%;
+    text-align: center;
+    padding: 150px 20px;
+}
+.about .body-text p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.about .body-text h2{
+	font-size: 42px;
+    line-height: 52px;
+}
+.subscribe{
+	padding: 40px 0px;
+}
+.subscribe .text-box {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+}
+.subscribe .text-box h2{
+	font-size: 42px;
+    line-height: 52px;
+}
+.subscribe .text-box p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.subscribe .text-box .form-control {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.subscribe .text-box .design .btn-primary{
+	font-size: 14px;
+	padding: 10px 10px;
+}
+.footer{
+	padding: 40px 0px;
+	text-align: center;
+}
+.footer .footer-body {
+    width: 100%;
+    padding: 0px 110px;
+}
+.footer h4{
+	margin: 20px 0px 20px;
+}
+.footer p{
+	font-size: 13px;
+    line-height: 23px;
+}
+.footer ul li a{
+	font-size: 13px;
+    line-height: 23px;
+}
+.footer .social-icons ul li a{
+	width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+
+/*code end*/
+}
+@media (min-width: 768px) and (max-width: 1024px){
+/*code start*/
+.header{
+	padding: 0px 0px 40px;
+}
+.navbar-collapse{
+	    margin: 15px 0px 0px;
+}
+.header .menu .navbar-toggler{
+	background: transparent;
+	border: 1px solid #e8631c;
+	border-radius: 0px;
+}
+.header .menu .navbar-toggler .fa{
+	color: #e8631c;
+}
+.menu .navbar-toggler:focus{
+	box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+.header .banner {
+    width: 100%;
+    padding: 40px 0px 40px;
+}
+.header .banner .banner-inner {
+    width: 100%;
+    padding: 30px 250px 10px 10px;
+}
+.banner .banner-inner h1{
+	font-size: 46px;
+    line-height: 56px;
+}
+.banner .banner-inner p{
+	font-size: 16px;
+    line-height: 26px;
+}
+.inner-btn .btn-primary{
+	padding: 12px 35px;
+    font-size: 18px;
+}
+.feature{
+	padding: 60px 0px;
+}
+.feature .title {
+    width: 100%;
+    text-align: center;
+    padding: 0px 80px 20px;
+}
+.feature .title h1{
+	font-size: 46px;
+    line-height: 56px;
+}
+.desktop{
+	display: none;
+}
+.mobile{
+	display: block;
+}
+.feature .title p{
+	font-size: 16px;
+    line-height: 26px;
+}
+.feature .inner-feature{
+	margin: 0px 0px 40px;
+}
+.feature .inner-feature .text-box {
+    padding: 10px 140px;
+}
+.feature .inner-feature .text-box h4{
+	font-size: 40px;
+    line-height: 50px;
+}
+.feature .inner-feature .text-box p{
+	 font-size: 16px;
+    line-height: 26px;
+}
+.pricing-plan{
+	padding: 60px 0px;
+}
+.pricing-plan .title{
+	padding: 0px 0px 30px;
+}
+.pricing-plan .title h1{
+	font-size: 42px;
+    line-height: 52px;
+}
+.pricing-plan .title p{
+	font-size: 16px;
+    line-height: 26px;
+}
+.pricing-plan .card{
+	margin: 0px 0px 25px;
+}
+.pricing-plan .card .card-img-top{
+	width: 15%;
+	margin: 30px 295px 25px;
+}
+.pricing-plan .card .card-title{
+	font-size: 40px;
+    line-height: 50px;
+}
+.pricing-plan .card .card-text{
+	font-size: 16px;
+    line-height: 26px;
+}
+.pricing-plan .card .card-body .btn-primary{
+	padding: 13px 100px;
+    font-size: 18px;
+}
+.shape{
+	padding: 0px 25px;
+}
+.shape .card-body{
+	width: 60%;
+    text-align: left;
+    margin: 100px 40px 100px;
+}
+.shape .card-body .card-title{
+	font-size: 42px;
+    line-height: 52px;
+}
+.shape .card-body .card-text{
+	font-size: 16px;
+    line-height: 26px;
+}
+.shape .card-body .btn-primary{
+	font-size: 18px;
+    padding: 12px 55px;
+}
+.statistic{
+	padding: 60px 0px;
+}
+.statistic .text-box {
+    padding: 0px 0px 50px;
+}
+.statistic .text-box h2{
+	font-size: 42px;
+    line-height: 52px;
+    padding: 0px 0px 10px;
+}
+.statistic .text-box p{
+	font-size: 16px;
+    line-height: 26px;
+}
+.statistic .static-box h2{
+	font-size: 40px;
+    line-height: 50px;
+}
+.statistic .static-box p{
+	font-size: 24px;
+    line-height: 34px;
+}
+.about{
+	padding: 60px 0px;
+}
+.about .body-text {
+    width: 100%;
+    text-align: center;
+    padding: 150px 20px;
+}
+.about .body-text p{
+	font-size: 16px;
+    line-height: 26px;
+}
+.about .body-text h2{
+	font-size: 42px;
+    line-height: 52px;
+}
+.subscribe{
+	padding: 85px;
+}
+.subscribe .text-box {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+}
+.subscribe .text-box h2{
+	font-size: 42px;
+    line-height: 52px;
+}
+.subscribe .text-box p{
+	font-size: 16px;
+    line-height: 26px;
+}
+.subscribe .text-box .form-control {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.subscribe .text-box .design .btn-primary{
+	font-size: 18px;
+	padding: 10px 15px;
+}
+.footer{
+	padding: 40px 0px;
+	text-align: center;
+}
+.footer .footer-body {
+    width: 100%;
+    padding: 35px 145px;
+}
+.footer p{
+	font-size: 16px;
+    line-height: 26px;
+}
+.footer ul li a{
+	font-size: 16px;
+    line-height: 26px;
+}
+.footer .social-icons ul li a{
+	width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*code end*/
+}
